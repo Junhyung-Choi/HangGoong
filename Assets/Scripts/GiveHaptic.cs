@@ -5,12 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class GiveHaptic : MonoBehaviour
 {
-    private XRController xr;
-    // Start is called before the first frame update
-    void Start()
-    {
-        xr = this.GetComponent<XRController>();
-    }
+    public static XRController xr;
 
     void OnTriggerEnter(Collider collider)
     {
@@ -30,8 +25,9 @@ public class GiveHaptic : MonoBehaviour
     }
 
     // Update is called once per frame
-    void ActivateHaptic()
+    public static void ActivateHaptic()
     {
+        xr = GameObject.Find("RightHand Controller").GetComponent<XRController>();
         xr.SendHapticImpulse(0.3f, 0.1f);
     }
 }
