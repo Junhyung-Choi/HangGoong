@@ -8,7 +8,8 @@ public enum ESceneList
     Main,
     Flower,
     Wood,
-    Ceramic
+    Ceramic,
+    Baking
 }
 
 public class ChangeScene : MonoBehaviour
@@ -29,6 +30,9 @@ public class ChangeScene : MonoBehaviour
                 break;
             case ESceneList.Ceramic:
                 SceneManager.LoadScene("Ceramic");
+                break;
+            case ESceneList.Baking:
+                SceneManager.LoadScene("Baking");
                 break;
         }
     }
