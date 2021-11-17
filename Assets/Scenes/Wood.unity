@@ -229,13 +229,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38857095}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.06, y: 1.0595, z: 1.311}
-  m_LocalScale: {x: 0.10000007, y: 0.1, z: 0.10000007}
-  m_Children:
-  - {fileID: 75986670}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.19000037, y: -1.595, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 75986670}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &38857097
 BoxCollider:
@@ -423,17 +422,18 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75986666}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19000043, y: 1.595, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.06, y: 1.219, z: 1.33}
+  m_LocalScale: {x: 0.1000001, y: 0.1, z: 0.1000001}
   m_Children:
   - {fileID: 3855171944266741148}
   - {fileID: 5633949771251212322}
   - {fileID: 65264901261974258}
   - {fileID: 8171106617649921217}
   - {fileID: 30059695}
-  m_Father: {fileID: 38857096}
-  m_RootOrder: 0
+  - {fileID: 38857096}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &331861360
 GameObject:
@@ -576,37 +576,6 @@ Transform:
   - {fileID: 857789171}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &332507445
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 332507446}
-  m_Layer: 0
-  m_Name: CylinderPivot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &332507446
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 332507445}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6061, y: 1.1578, z: 2.5615}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6481838328545768386}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &344531418
 PrefabInstance:
@@ -2232,7 +2201,6 @@ GameObject:
   - component: {fileID: 1529935245}
   - component: {fileID: 1529935248}
   - component: {fileID: 1529935247}
-  - component: {fileID: 1529935246}
   m_Layer: 0
   m_Name: top
   m_TagString: Attach
@@ -2248,25 +2216,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529935244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6481838328545768386}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1529935246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529935244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a73a537a71142746be8860a719e000d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 332507445}
 --- !u!65 &1529935247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3289,12 +3244,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4749034513849713814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000100016594, y: 0.0011999607, z: -1.0015001}
+  m_LocalPosition: {x: 1.606, y: 1.1589999, z: 2.536}
   m_LocalScale: {x: 0.030000001, y: 0.030000001, z: 1}
   m_Children:
   - {fileID: 1529935245}
-  m_Father: {fileID: 332507446}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7973980054189237899
 MeshFilter:
