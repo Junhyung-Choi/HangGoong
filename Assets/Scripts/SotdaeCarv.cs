@@ -12,12 +12,13 @@ public class SotdaeCarv : MonoBehaviour
         {
             collider.gameObject.transform.Find("Cube").gameObject.SetActive(false);
             collider.gameObject.tag = "Untagged";
+            GiveHaptic.ActivateHaptic();
+            this.GetComponent<OffsetGrab>().enabled = true;
         }
         time += Time.deltaTime;
-        GiveHaptic.ActivateHaptic();
     }
 
-    void OnTriggerExit(Collider collider)
+    void OnTriggerEnter(Collider collider)
     {
         time = 0f;
     }

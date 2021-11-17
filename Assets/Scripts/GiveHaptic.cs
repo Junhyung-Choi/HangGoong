@@ -9,7 +9,7 @@ public class GiveHaptic : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        Debug.Log("IsTriggerEnter");
+        Debug.Log("IsCollisionEnter");
         if(collider.gameObject.tag == "Haptic")
         {
             ActivateHaptic();
@@ -18,6 +18,7 @@ public class GiveHaptic : MonoBehaviour
 
     void OnTriggerStay(Collider collider)
     {
+        Debug.Log("IsCollisionEnter");
         if(collider.gameObject.tag == "Haptic")
         {
             ActivateHaptic();
