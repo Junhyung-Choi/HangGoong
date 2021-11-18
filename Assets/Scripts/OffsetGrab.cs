@@ -8,11 +8,11 @@ public class OffsetGrab : XRGrabInteractable
     private Vector3 interactorPosition = Vector3.zero;
     private Quaternion interactorRotation = Quaternion.identity;
 
-    protected override void OnSelectEntered(XRBaseInteractor interactor)
+    protected override void OnSelectEntered(SelectEnterEventArgs selectEnterEventArgs)
     {
-        base.OnSelectEntered(interactor);
-        StoreInteractor(interactor);
-        MatchAttachmentPoints(interactor);
+        base.OnSelectEntered(selectEnterEventArgs);
+        StoreInteractor(selectEnterEventArgs.interactor);
+        MatchAttachmentPoints(selectEnterEventArgs.interactor);
     }
 
     private void StoreInteractor(XRBaseInteractor interactor)
@@ -27,11 +27,11 @@ public class OffsetGrab : XRGrabInteractable
         interactor.attachTransform.position = hasAttach ? attachTransform.position : transform.position;   
         interactor.attachTransform.rotation = hasAttach ? attachTransform.rotation : transform.rotation;   
     }
-    protected override void OnSelectExited(XRBaseInteractor interactor)
+    protected override void OnSelectExited(SelectExitEventArgs selectExitEventArgs)
     {
-        base.OnSelectExited(interactor);
-        ResetAttachmentPoints(interactor);
-        ClearInteractor(interactor);
+        base.OnSelectExited(selectExitEventArgs);
+        ResetAttachmentPoints(selectExitEventArgs.interactor);
+        ClearInteractor(selectExitEventArgs.interactor);
     }
 
     private void ResetAttachmentPoints(XRBaseInteractor interactor)
