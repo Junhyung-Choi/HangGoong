@@ -41,7 +41,7 @@ public class SotdaeAttach : MonoBehaviour
         new_child.transform.localPosition = Vector3.zero;
         new_child.transform.localRotation = Quaternion.Euler(-90,origin.transform.localRotation.y,origin.transform.localRotation.z);
         new_child.GetComponent<OffsetGrab>().enabled = false;
-        this.transform.parent.gameObject.GetComponent<BoxCollider>().center = new Vector3(0,8,0);
+        this.transform.parent.gameObject.GetComponent<BoxCollider>().center = new Vector3(0,-8,0);
         this.transform.parent.gameObject.GetComponent<BoxCollider>().size = new Vector3(4,20,4);
         origin.SetActive(false);
     }  
