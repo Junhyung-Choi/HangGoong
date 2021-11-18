@@ -2990,9 +2990,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6580031233068875738, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5086727986680746777, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+    - target: {fileID: -6508177962706692409, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.010000229
+      objectReference: {fileID: 0}
+    - target: {fileID: -2651179904548116925, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5086727986680746777, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+    - target: {fileID: -1874675052712196184, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -1173486010431510603, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.01
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
       propertyPath: m_Name
       value: Ceramics
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624465030297400466, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c33da921c8fc3e418fd3b4ad0cd4b01, type: 3}
