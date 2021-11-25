@@ -24,7 +24,7 @@ public class FollowLate : MonoBehaviour
                 target.transform.position.y + offsetposY,
                 target.transform.position.z + offsetposZ);
         transform.position = Vector3.Lerp(transform.position,FixedPos, Time.deltaTime * DelayTime);
-        transform.LookAt(target.transform);
+        //transform.LookAt(target.transform);
     }
         //Quaternion FixedRotation = Quaternion.Euler(0,90,0)
 
