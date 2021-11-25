@@ -5,14 +5,17 @@ using UnityEngine;
 public class FollowLate : MonoBehaviour
 {
     public GameObject target;
+    public GameObject FixedPos;
 
+    public Transform
+
+    // private void Start() {
+    //     Quaternion
+    // }
     public float offsetposX;
     public float offsetposY;
     public float offsetposZ;
-    public float offsetrotX;
-    public float offsetrotY;
-    public float offsetrotZ;
-    public float offsetrotW;
+    
     public float DelayTime;
     
     // Update is called once per frame
@@ -24,6 +27,7 @@ public class FollowLate : MonoBehaviour
                 target.transform.position.y + offsetposY,
                 target.transform.position.z + offsetposZ);
         transform.position = Vector3.Lerp(transform.position,FixedPos, Time.deltaTime * DelayTime);
+        transform.rotation = Quaternion.Lerp(Quaternion.tra)
         //transform.LookAt(target.transform);
     }
         //Quaternion FixedRotation = Quaternion.Euler(0,90,0)
