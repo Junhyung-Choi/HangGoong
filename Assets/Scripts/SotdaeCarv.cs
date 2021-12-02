@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SotdaeCarv : MonoBehaviour
 {
+    public GameObject wood_piece;
     private float time = 0f;
 
     void OnTriggerStay(Collider collider)
