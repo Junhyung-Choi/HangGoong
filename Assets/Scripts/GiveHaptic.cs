@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class GiveHaptic : MonoBehaviour
 {
     public static XRController xr;
+    public static XRBaseController xr2;
 
     void OnTriggerEnter(Collider collider)
     {
@@ -30,5 +31,8 @@ public class GiveHaptic : MonoBehaviour
     {
         xr = GameObject.Find("RightHand Controller").GetComponent<XRController>();
         xr.SendHapticImpulse(0.3f, 0.1f);
+        GameObject check = GameObject.Find("LeftHand Controller"); 
+        xr2 = GameObject.Find("LeftHand Controller").GetComponent<XRBaseController>();
+        xr2.SendHapticImpulse(0.3f, 0.1f);
     }
 }
