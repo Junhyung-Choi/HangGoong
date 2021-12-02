@@ -18,7 +18,6 @@ public class SotdaeAttach : MonoBehaviour
 
     void OnTriggerStay(Collider collider)
     {
-        Debug.Log("hi");
         if(!isAttached && time > 1.0f && collider.gameObject.tag == "Attach")
         {
             AttachChild(collider.gameObject);
@@ -29,7 +28,6 @@ public class SotdaeAttach : MonoBehaviour
 
     void OnTriggerExit(Collider collider)
     {
-        Debug.Log("Exit");
         time = 0f;
     }
 
