@@ -6,10 +6,13 @@ using UnityEngine.UI;
 public class UICanvasOff : MonoBehaviour
 {
     public GameObject Canvas;
+    public GameObject onCanvas;
     public void turnoff()
     {
         Canvas.SetActive(false);
+        onCanvas.SetActive(true);
     }
+
     // Start is called before the first frame update
     void Start()
     {
