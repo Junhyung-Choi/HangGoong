@@ -43,15 +43,4 @@ public class SotdaeAttach : MonoBehaviour
         this.transform.parent.gameObject.GetComponent<BoxCollider>().size = new Vector3(4,20,4);
         origin.SetActive(false);
     }  
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
