@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Haptic
   - Attach
+  - Cuttable
   layers:
   - Default
   - TransparentFX

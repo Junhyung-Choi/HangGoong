@@ -8,15 +8,16 @@ public class CeramicSwitch : MonoBehaviour
     private float time = 0f;
     private bool isChanged = false;
     private int index = 0;
-    private string[] ceramic_list = {"11","22","33","44"};
+    private string[] ceramic_list = {"11","22","33","44","55","66","77"};
 
     void OnTriggerStay(Collider collider)
     {
-        if(collider.gameObject.tag == "Haptic" && time >= 3.0f && !isChanged)
+        if(collider.gameObject.tag == "Haptic" && time >= 0.3f && !isChanged)
         {
+            this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             int before = index;
             index += 1;
-            if (index == 5)
+            if (index == 8)
             {
                 index = 1;
             }
@@ -26,6 +27,7 @@ public class CeramicSwitch : MonoBehaviour
             isChanged = true;
         }
         time += Time.deltaTime;
+        GiveHaptic.ActivateHaptic();
     }
 
     void OnTriggerEnter(Collider collider)
@@ -34,7 +36,4 @@ public class CeramicSwitch : MonoBehaviour
         isChanged = false;
     }
 
-    private void OnTriggerExit(Collider other) {
-        isChanged = false;    
-    }
 }
