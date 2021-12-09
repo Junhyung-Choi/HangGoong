@@ -6,7 +6,7 @@ public class ScreenFader : MonoBehaviour
 {
     [SerializeField] private float _speed = 1.0f;
     [SerializeField] private float _intensity = 0.0f;
-    [SerializeField] private Color _color = Color.black;
+    [SerializeField] private Color _color = Color.yellow;
     [SerializeField] private Material _fadeMaterial = null;
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)

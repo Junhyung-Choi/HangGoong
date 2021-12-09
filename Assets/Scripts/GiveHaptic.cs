@@ -29,6 +29,7 @@ public class GiveHaptic : MonoBehaviour
     // Update is called once per frame
     public static void ActivateHaptic()
     {
+        // Debug.Log("HAPTIC ON");
         xr = GameObject.Find("RightHand Controller").GetComponent<XRController>();
         xr.SendHapticImpulse(0.3f, 0.1f);
         GameObject check = GameObject.Find("LeftHand Controller"); 

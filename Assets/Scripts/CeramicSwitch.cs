@@ -27,7 +27,10 @@ public class CeramicSwitch : MonoBehaviour
             isChanged = true;
         }
         time += Time.deltaTime;
-        GiveHaptic.ActivateHaptic();
+        if(collider.gameObject.tag == "Haptic" && time < 0.3f) 
+        {
+            GiveHaptic.ActivateHaptic();
+        } 
     }
 
     void OnTriggerEnter(Collider collider)
