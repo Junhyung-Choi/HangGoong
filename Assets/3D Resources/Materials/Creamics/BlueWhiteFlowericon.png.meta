@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
-guid: 4f980bb14d5614775a025741cdfafecd
-=======
-guid: e14528871242c6f418032c647022a10d
->>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteFlowericon.png.meta
+guid: f4e7d4d5b2526b4428ccefdea906db16
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -39,17 +35,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-  nPOTScale: 1
-=======
     wrapU: 1
     wrapV: 1
     wrapW: 0
   nPOTScale: 0
->>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteFlowericon.png.meta
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
@@ -72,16 +61,14 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
-=======
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,19 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,8 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
->>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteFlowericon.png.meta
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
