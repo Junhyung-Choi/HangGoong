@@ -81,7 +81,7 @@ public class ShowNextText : MonoBehaviour
 
     public void NextText()
     {
-        if(UICanvasOff.isOpened())
+        // if(UICanvasOff.isOpened())
         textbox.GetComponent<Text>().text = dialog[index++];
         Debug.Log("fuck that shit");
     }
