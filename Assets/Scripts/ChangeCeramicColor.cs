@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameStateManager : MonoBehaviour
+public class ChangeCeramicColor : MonoBehaviour
 {
-    public static bool isEnding;
     // Start is called before the first frame update
     void Start()
     {
