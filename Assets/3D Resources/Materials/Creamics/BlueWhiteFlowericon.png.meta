@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f4e7d4d5b2526b4428ccefdea906db16
+=======
+<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
+guid: b9082c2e743464e048d8c7f31a71b265
+=======
+guid: e14528871242c6f418032c647022a10d
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteFlowericon.png.meta
+>>>>>>> 0fb2079953e2a9b289fdacfe16c64f5c339ff4c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
