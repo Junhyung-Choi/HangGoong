@@ -53,14 +53,59 @@ public class ChangeCeramicMaterial : MonoBehaviour
                 break;
         }
     }
-    public static void changeAllColors()
+
+    void Start()
     {
-        GameObject.Find("11").GetComponent<MeshRenderer>().material = g_color;
-        GameObject.Find("22").GetComponent<MeshRenderer>().material = g_color;
-        GameObject.Find("33").GetComponent<MeshRenderer>().material = g_color;
-        GameObject.Find("44").GetComponent<MeshRenderer>().material = g_color;
-        GameObject.Find("55").GetComponent<MeshRenderer>().material = g_color;
-        GameObject.Find("66").GetComponent<MeshRenderer>().material = g_color;
-        GameObject.Find("77").GetComponent<MeshRenderer>().material = g_color;
+        g_color = White;
+    }
+
+    public static void changeAllColors(GameObject ceramic)
+    {
+        Renderer ren = ceramic.GetComponent<Renderer>();
+        Material[] mat = ren.materials;
+        mat[0] = g_color;
+        if (ceramic.name.Equals("44") || ceramic.name.Equals("55") || ceramic.name.Equals("66"))
+        {
+            Debug.Log("why");
+            mat[0].mainTextureScale = new Vector2(15,1);
+        }
+        else
+        {
+            Debug.Log(ceramic.name);
+            mat[0].mainTextureScale = new Vector2(4,4);
+        }
+        ren.materials = mat;
+        
+        // Renderer ren = GameObject.Find("11").GetComponent<Renderer>();
+        // Material[] mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+        // ren = GameObject.Find("22").GetComponent<Renderer>();
+        // mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+        // ren = GameObject.Find("33").GetComponent<Renderer>();
+        // mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+        // ren = GameObject.Find("44").GetComponent<Renderer>();
+        // mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+        // ren = GameObject.Find("55").GetComponent<Renderer>();
+        // mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+        // ren = GameObject.Find("66").GetComponent<Renderer>();
+        // mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+        // ren = GameObject.Find("77").GetComponent<Renderer>();
+        // mat = ren.materials;
+        // mat[0] = g_color;
+        // ren.materials = mat;
+
+
+        // GameObject.Find("77").GetComponent<MeshRenderer>().material = g_color;
     }
 }
