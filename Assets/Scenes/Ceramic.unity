@@ -1082,7 +1082,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: dd34acc0bdc98d54d914c23b037cd273, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 2
+=======
       value: 3
+>>>>>>> 0fb2079953e2a9b289fdacfe16c64f5c339ff4c1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dd34acc0bdc98d54d914c23b037cd273, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1384,6 +1388,7 @@ GameObject:
   - component: {fileID: 512157517}
   - component: {fileID: 512157516}
   - component: {fileID: 512157515}
+  - component: {fileID: 512157518}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1493,12 +1498,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512157513}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+--- !u!114 &512157518
+MonoBehaviour:
+=======
 --- !u!1 &518785369
 GameObject:
+>>>>>>> 0fb2079953e2a9b289fdacfe16c64f5c339ff4c1
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 512157513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda56ad1c431c3f48bd67d0adb9e2f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cur_color: 1
+  BlueWhiteFlower: {fileID: 2100000, guid: 650e3e3d1c681f84abb8bb8efed58e54, type: 2}
+  BlueWhiteStrip: {fileID: 2100000, guid: 8e1b10c20bca169488abda8cb4ec2faf, type: 2}
+  BlueYellow: {fileID: 2100000, guid: f022c70b350c77d4db0db8e6400ea12c, type: 2}
+  Sand: {fileID: 2100000, guid: b6325571a3273b04a9fb7c024dce7446, type: 2}
+  White: {fileID: 2100000, guid: 7680ef9ba76ca9c4a8af45c07439cfab, type: 2}
+  Vivid: {fileID: 2100000, guid: f7870958e6b036d4abbf762a8620337a, type: 2}
+  Metalic: {fileID: 2100000, guid: 6e252aef1a5fcbc4399b534069f37794, type: 2}
+=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 518785370}
@@ -1576,6 +1602,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518785369}
   m_Mesh: {fileID: -5314990787353803266, guid: c05274baa72cd4c3f875b72beabfa77b, type: 3}
+>>>>>>> 0fb2079953e2a9b289fdacfe16c64f5c339ff4c1
 --- !u!1 &544394398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,6 +2292,7 @@ GameObject:
   - component: {fileID: 923053195}
   - component: {fileID: 923053194}
   - component: {fileID: 923053193}
+  - component: {fileID: 923053196}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: Untagged
@@ -2374,6 +2402,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923053191}
   m_CullTransparentMesh: 1
+--- !u!114 &923053196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923053191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda56ad1c431c3f48bd67d0adb9e2f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cur_color: 4
+  BlueWhiteFlower: {fileID: 2100000, guid: 650e3e3d1c681f84abb8bb8efed58e54, type: 2}
+  BlueWhiteStrip: {fileID: 2100000, guid: 8e1b10c20bca169488abda8cb4ec2faf, type: 2}
+  BlueYellow: {fileID: 2100000, guid: f022c70b350c77d4db0db8e6400ea12c, type: 2}
+  Sand: {fileID: 2100000, guid: b6325571a3273b04a9fb7c024dce7446, type: 2}
+  White: {fileID: 2100000, guid: 7680ef9ba76ca9c4a8af45c07439cfab, type: 2}
+  Vivid: {fileID: 2100000, guid: f7870958e6b036d4abbf762a8620337a, type: 2}
+  Metalic: {fileID: 2100000, guid: 6e252aef1a5fcbc4399b534069f37794, type: 2}
 --- !u!1001 &980845590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2874,7 +2922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e433fcc2bf531194aa242376abd22c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 911f50f29320b83488b6294249fa9ac2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3595,6 +3643,7 @@ GameObject:
   - component: {fileID: 1230389889}
   - component: {fileID: 1230389888}
   - component: {fileID: 1230389887}
+  - component: {fileID: 1230389890}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -3704,6 +3753,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230389885}
   m_CullTransparentMesh: 1
+--- !u!114 &1230389890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230389885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda56ad1c431c3f48bd67d0adb9e2f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cur_color: 2
+  BlueWhiteFlower: {fileID: 2100000, guid: 650e3e3d1c681f84abb8bb8efed58e54, type: 2}
+  BlueWhiteStrip: {fileID: 2100000, guid: 8e1b10c20bca169488abda8cb4ec2faf, type: 2}
+  BlueYellow: {fileID: 2100000, guid: f022c70b350c77d4db0db8e6400ea12c, type: 2}
+  Sand: {fileID: 2100000, guid: b6325571a3273b04a9fb7c024dce7446, type: 2}
+  White: {fileID: 2100000, guid: 7680ef9ba76ca9c4a8af45c07439cfab, type: 2}
+  Vivid: {fileID: 2100000, guid: f7870958e6b036d4abbf762a8620337a, type: 2}
+  Metalic: {fileID: 2100000, guid: 6e252aef1a5fcbc4399b534069f37794, type: 2}
 --- !u!1 &1243057909
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,7 +3830,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e433fcc2bf531194aa242376abd22c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a1b582a2887a54f44956118de12ddf17, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4377,7 +4446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e433fcc2bf531194aa242376abd22c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 748133803660dd440b0c04f846f3fc4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4612,7 +4681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e433fcc2bf531194aa242376abd22c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 531f9bb8501b97f48a3e22d4d46b673b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4991,7 +5060,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e433fcc2bf531194aa242376abd22c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f4e7d4d5b2526b4428ccefdea906db16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5380,6 +5449,7 @@ GameObject:
   - component: {fileID: 1929165014}
   - component: {fileID: 1929165013}
   - component: {fileID: 1929165012}
+  - component: {fileID: 1929165015}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -5489,6 +5559,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929165010}
   m_CullTransparentMesh: 1
+--- !u!114 &1929165015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929165010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda56ad1c431c3f48bd67d0adb9e2f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cur_color: 3
+  BlueWhiteFlower: {fileID: 2100000, guid: 650e3e3d1c681f84abb8bb8efed58e54, type: 2}
+  BlueWhiteStrip: {fileID: 2100000, guid: 8e1b10c20bca169488abda8cb4ec2faf, type: 2}
+  BlueYellow: {fileID: 2100000, guid: f022c70b350c77d4db0db8e6400ea12c, type: 2}
+  Sand: {fileID: 2100000, guid: b6325571a3273b04a9fb7c024dce7446, type: 2}
+  White: {fileID: 2100000, guid: 7680ef9ba76ca9c4a8af45c07439cfab, type: 2}
+  Vivid: {fileID: 2100000, guid: f7870958e6b036d4abbf762a8620337a, type: 2}
+  Metalic: {fileID: 2100000, guid: 6e252aef1a5fcbc4399b534069f37794, type: 2}
 --- !u!1 &2007351670
 GameObject:
   m_ObjectHideFlags: 0
@@ -6092,6 +6182,7 @@ GameObject:
   - component: {fileID: 2067707610}
   - component: {fileID: 2067707609}
   - component: {fileID: 2067707608}
+  - component: {fileID: 2067707611}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6201,6 +6292,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067707606}
   m_CullTransparentMesh: 1
+--- !u!114 &2067707611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067707606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda56ad1c431c3f48bd67d0adb9e2f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cur_color: 0
+  BlueWhiteFlower: {fileID: 2100000, guid: 650e3e3d1c681f84abb8bb8efed58e54, type: 2}
+  BlueWhiteStrip: {fileID: 2100000, guid: 8e1b10c20bca169488abda8cb4ec2faf, type: 2}
+  BlueYellow: {fileID: 2100000, guid: f022c70b350c77d4db0db8e6400ea12c, type: 2}
+  Sand: {fileID: 2100000, guid: b6325571a3273b04a9fb7c024dce7446, type: 2}
+  White: {fileID: 2100000, guid: 7680ef9ba76ca9c4a8af45c07439cfab, type: 2}
+  Vivid: {fileID: 2100000, guid: f7870958e6b036d4abbf762a8620337a, type: 2}
+  Metalic: {fileID: 2100000, guid: 6e252aef1a5fcbc4399b534069f37794, type: 2}
 --- !u!1 &2129147774
 GameObject:
   m_ObjectHideFlags: 0
@@ -6213,6 +6324,7 @@ GameObject:
   - component: {fileID: 2129147778}
   - component: {fileID: 2129147777}
   - component: {fileID: 2129147776}
+  - component: {fileID: 2129147779}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: Untagged
@@ -6322,6 +6434,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129147774}
   m_CullTransparentMesh: 1
+--- !u!114 &2129147779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129147774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda56ad1c431c3f48bd67d0adb9e2f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cur_color: 6
+  BlueWhiteFlower: {fileID: 2100000, guid: 650e3e3d1c681f84abb8bb8efed58e54, type: 2}
+  BlueWhiteStrip: {fileID: 2100000, guid: 8e1b10c20bca169488abda8cb4ec2faf, type: 2}
+  BlueYellow: {fileID: 2100000, guid: f022c70b350c77d4db0db8e6400ea12c, type: 2}
+  Sand: {fileID: 2100000, guid: b6325571a3273b04a9fb7c024dce7446, type: 2}
+  White: {fileID: 2100000, guid: 7680ef9ba76ca9c4a8af45c07439cfab, type: 2}
+  Vivid: {fileID: 2100000, guid: f7870958e6b036d4abbf762a8620337a, type: 2}
+  Metalic: {fileID: 2100000, guid: 6e252aef1a5fcbc4399b534069f37794, type: 2}
 --- !u!4 &386822611535646405
 Transform:
   m_ObjectHideFlags: 0
@@ -6803,7 +6935,11 @@ Transform:
   - {fileID: 3708342968826795821}
   - {fileID: 4545854865898713604}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
+  m_RootOrder: 4
+=======
   m_RootOrder: 5
+>>>>>>> 0fb2079953e2a9b289fdacfe16c64f5c339ff4c1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &3249219999839216378
 GameObject:
