@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class GameStateManager : MonoBehaviour
 {
-    public static bool isEnding;
+    public static isEnding
     // Start is called before the first frame update
 }
