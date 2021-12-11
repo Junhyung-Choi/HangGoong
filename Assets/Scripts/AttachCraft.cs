@@ -30,9 +30,9 @@ public class AttachCraft : MonoBehaviour
         // GameObject origin = child.transform.parent.gameObject;
         GameObject origin = child;
         GameObject prefab = GameObject.Find("Ceramics").transform.Find(origin.name).gameObject;
-        GameObject new_child = Instantiate(prefab, new Vector3(0,origin.transform.position.y,0), Quaternion.Euler(0,0,0));
+        GameObject new_child = Instantiate(prefab, new Vector3(0,origin.transform.position.y+0.5f,0), Quaternion.Euler(0,0,0));
         new_child.transform.parent = transform;
-        new_child.transform.localPosition = new Vector3(0,origin.transform.position.y,0);
+        new_child.transform.localPosition = new Vector3(0,origin.transform.position.y+0.5f,0);
         // new_child.GetComponent<OffsetGrab>().enabled = false;
         child.SetActive(false);
     }
