@@ -1,12 +1,32 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 5ca27ea01beb246dcaaad3ff765db7dc
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Mixed_AO.png.meta
+guid: 18e9f74a8beb7c241bca5f5d435eb76e
+=======
+guid: 066e90ba19e13f046a062f9999e71670
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteStripicon.png.meta
+=======
+guid: 163a348c1cfe89241bc60c2547d558ec
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
     enableMipMap: 1
+=======
+<<<<<<< HEAD
+    enableMipMap: 0
+=======
+    enableMipMap: 1
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +55,38 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Mixed_AO.png.meta
+=======
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     wrapU: 0
     wrapV: 0
     wrapW: 0
   nPOTScale: 1
+<<<<<<< HEAD
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+=======
+<<<<<<< HEAD
+=======
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteStripicon.png.meta
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+=======
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +95,21 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
+=======
+<<<<<<< HEAD
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+=======
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -69,6 +126,51 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Mixed_AO.png.meta
+=======
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteStripicon.png.meta
+=======
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -81,7 +183,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 
+=======
+<<<<<<< HEAD
+    spriteID: 5e97eb03825dee720800000000000000
+=======
+    spriteID: 
+>>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     internalID: 0
     vertices: []
     indices: 
