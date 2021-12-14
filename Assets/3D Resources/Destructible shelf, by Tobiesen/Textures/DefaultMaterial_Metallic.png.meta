@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+guid: c3eb40991ad3648aea69b817d5d73aea
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
 guid: 5b803bd0348778b46bf2cb6fc70589f6
 =======
@@ -8,6 +11,7 @@ guid: e14528871242c6f418032c647022a10d
 =======
 guid: 5d0011766c13ac14e9d6256abdaa009c
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -15,10 +19,14 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
 <<<<<<< HEAD
+    enableMipMap: 1
+=======
+<<<<<<< HEAD
     enableMipMap: 0
 =======
     enableMipMap: 1
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -48,13 +56,21 @@ TextureImporter:
     aniso: 1
     mipBias: 0
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
 =======
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     wrapU: 0
     wrapV: 0
     wrapW: 0
   nPOTScale: 1
+<<<<<<< HEAD
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+=======
 <<<<<<< HEAD
 =======
     wrapU: 1
@@ -70,6 +86,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 0
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -79,6 +96,11 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
 <<<<<<< HEAD
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+=======
+<<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -87,6 +109,7 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 0
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -103,6 +126,8 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Metallic.png.meta
 =======
@@ -145,6 +170,7 @@ TextureImporter:
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteFlowericon.png.meta
 =======
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,10 +184,14 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< HEAD
+    spriteID: 
+=======
+<<<<<<< HEAD
     spriteID: 5e97eb03825dee720800000000000000
 =======
     spriteID: 
 >>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382
+>>>>>>> 8dc6ad6c51636d2a54adaedf6e31d9f6dfaa0aa4
     internalID: 0
     vertices: []
     indices: 
