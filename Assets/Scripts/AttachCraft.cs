@@ -11,6 +11,7 @@ public class AttachCraft : MonoBehaviour
     {
         if(!isAttached && time > 0.1f && collider.gameObject.tag == "Attach")
         {
+            Debug.Log("Shit");
             GetComponent<AudioSource>().Play();
             AttachChild(collider.gameObject);
             isAttached = true;
@@ -20,6 +21,7 @@ public class AttachCraft : MonoBehaviour
 
     void OnTriggerExit(Collider collider)
     {
+        Debug.Log("hi");
         time = 0f;
     }
 
@@ -27,9 +29,11 @@ public class AttachCraft : MonoBehaviour
     {
         // GameObject origin = child.transform.parent.gameObject;
         GameObject origin = child;
-        GameObject new_child = Instantiate(origin, origin.transform.position,Quaternion.Euler(0,origin.transform.localRotation.y,0));
-        new_child.transform.parent = this.gameObject.transform;
-        new_child.GetComponent<OffsetGrab>().enabled = false;
-        origin.SetActive(false);
+        GameObject prefab = GameObject.Find("Ceramics").transform.Find(origin.name).gameObject;
+        GameObject new_child = Instantiate(prefab, new Vector3(0,origin.transform.position.y+0.5f,0), Quaternion.Euler(0,0,0));
+        new_child.transform.parent = transform;
+        new_child.transform.localPosition = new Vector3(0,origin.transform.position.y+0.5f,0);
+        // new_child.GetComponent<OffsetGrab>().enabled = false;
+        child.SetActive(false);
     }
 }
