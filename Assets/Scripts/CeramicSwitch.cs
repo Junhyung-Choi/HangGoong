@@ -25,9 +25,14 @@ public class CeramicSwitch : MonoBehaviour
             this.gameObject.transform.GetChild(index).gameObject.SetActive(true);
             GiveHaptic.ActivateHaptic();
             isChanged = true;
+        } else if (collider.gameObject.tag == "Brush" && time >= 0.3f && !isChanged)
+        {
+            ChangeCeramicMaterial.changeAllColors(transform.GetChild(index).gameObject);
+            GiveHaptic.ActivateHaptic();
+            isChanged = true;
         }
         time += Time.deltaTime;
-        if(collider.gameObject.tag == "Haptic" && time < 0.3f) 
+        if((collider.gameObject.tag == "Haptic" || collider.gameObject.tag == "Brush" )&& time < 0.3f) 
         {
             GiveHaptic.ActivateHaptic();
         } 

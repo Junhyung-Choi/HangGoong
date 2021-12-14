@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Mixed_AO.png.meta
-guid: b0853634fcda6495eb744a4c1f3e1a8c
-=======
-guid: 066e90ba19e13f046a062f9999e71670
->>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteStripicon.png.meta
+guid: a1b582a2887a54f44956118de12ddf17
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -39,17 +35,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Mixed_AO.png.meta
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-  nPOTScale: 1
-=======
     wrapU: 1
     wrapV: 1
     wrapW: 0
   nPOTScale: 0
->>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteStripicon.png.meta
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
@@ -72,16 +61,14 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-<<<<<<< HEAD:Assets/3D Resources/Destructible shelf, by Tobiesen/Textures/DefaultMaterial_Mixed_AO.png.meta
-=======
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,8 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
->>>>>>> dcfea53839334d5e839401ef838f3e08deeaa382:Assets/3D Resources/Materials/Creamics/BlueWhiteStripicon.png.meta
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

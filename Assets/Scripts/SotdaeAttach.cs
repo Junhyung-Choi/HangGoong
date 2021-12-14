@@ -43,4 +43,13 @@ public class SotdaeAttach : MonoBehaviour
         this.transform.parent.gameObject.GetComponent<BoxCollider>().size = new Vector3(4,20,4);
         origin.SetActive(false);
     }  
+
+    void Update()
+    {
+        if (isAttached)
+        {
+            this.transform.parent.gameObject.GetComponent<Rigidbody>().useGravity = false;
+            this.transform.parent.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        }
+    }
 }
