@@ -25,7 +25,7 @@ public class ShowWoodEnding : MonoBehaviour
         pare.transform.localPosition = position;
         pare.transform.localRotation = Quaternion.Euler(0,0,0);
         new_one.transform.localPosition = Vector3.zero;
-        pare.transform.localScale = new Vector3(0.1f,0.1f,0.1f);
+        pare.transform.localScale = new Vector3(0.3f,0.3f,0.3f);
         // new_one.transform.localRotation = Quaternion.Euler(Vector3.zero);
         // new_one.transform.Find("product").GetComponent<MeshRenderer>().enabled = false;
         isRotate = true;

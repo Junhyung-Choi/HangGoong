@@ -50,7 +50,7 @@ public class FixFlower : MonoBehaviour
         new_child.transform.parent = par.transform;
         new_child.transform.localPosition = Vector3.zero;
         par.transform.position = origin.transform.position;
-        par.transform.parent =  this.gameObject.transform;
+        par.transform.parent = this.gameObject.transform;
         // new_child.GetComponent<OffsetGrab>().enabled = false;
         // new_child.GetComponent<BoxCollider>().enabled = false;
         // new_child.transform.Find("AttachToVase").GetComponent<BoxCollider>().enabled = false;
