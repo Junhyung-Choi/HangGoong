@@ -22,6 +22,7 @@ public class ShowFlowerEnding : MonoBehaviour
         new_one.transform.localRotation = Quaternion.Euler(Vector3.zero);
         // new_one.transform.Find("product").GetComponent<MeshRenderer>().enabled = false;
         isRotate = true;
+        GameStateManager.roomList[1] = true;
     }
 
     void Update()

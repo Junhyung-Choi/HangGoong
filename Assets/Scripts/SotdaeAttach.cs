@@ -35,10 +35,15 @@ public class SotdaeAttach : MonoBehaviour
     {
         GameObject origin = child.transform.parent.gameObject;
         GameObject new_child = Instantiate(origin, Vector3.zero,Quaternion.Euler(-90,origin.transform.localRotation.y,origin.transform.localRotation.z));
-        new_child.transform.parent = this.gameObject.transform;
+        GameObject par = new GameObject("par");
+        new_child.transform.parent = par.transform;
         new_child.transform.localPosition = Vector3.zero;
         new_child.transform.localRotation = Quaternion.Euler(-90,origin.transform.localRotation.y,origin.transform.localRotation.z);
         new_child.GetComponent<OffsetGrab>().enabled = false;
+        new_child.transform.GetChild(0).gameObject.SetActive(false);
+        par.transform.parent = this.gameObject.transform;
+        par.transform.localPosition = Vector3.zero;
+        par.transform.localRotation = Quaternion.Euler(0,0,0);
         this.transform.parent.gameObject.GetComponent<BoxCollider>().center = new Vector3(0,-8,0);
         this.transform.parent.gameObject.GetComponent<BoxCollider>().size = new Vector3(4,20,4);
         origin.SetActive(false);

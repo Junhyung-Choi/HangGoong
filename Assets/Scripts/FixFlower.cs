@@ -35,24 +35,24 @@ public class FixFlower : MonoBehaviour
         GameObject origin = child.transform.parent.gameObject;
         GameObject prefab = GameObject.Find("Flowers").transform.Find(origin.name).gameObject;
         GameObject new_child = new GameObject();
+        GameObject par = new GameObject("par");
         // GameObject origin = child;
         if(origin.name.StartsWith("Tul"))
         {
-            new_child = Instantiate(prefab, origin.transform.position, Quaternion.Euler(-90,0,origin.transform.rotation.z));
+            new_child = Instantiate(prefab, origin.transform.position, origin.transform.rotation);
         }
         else
         {
-            new_child = Instantiate(prefab, origin.transform.position, Quaternion.Euler(0,origin.transform.rotation.y,0));
+            new_child = Instantiate(prefab, origin.transform.position, origin.transform.rotation);
         }
 
         // new_child = Instantiate(prefab, origin.transform.position, origin.transform.rotation);
-        new_child.transform.parent = this.gameObject.transform;
-        // new_child.transform.position = origin.transform.position;
-        // new_child.transform.rotation = origin.transform.rotation;
-        new_child.GetComponent<OffsetGrab>().enabled = false;
-        new_child.GetComponent<BoxCollider>().enabled = false;
-        new_child.transform.Find("AttachToVase").GetComponent<BoxCollider>().enabled = false;
-        new_child.transform.Find("AttachToVase").gameObject.SetActive(false);
+        new_child.transform.parent = par.transform;
+        new_child.transform.localPosition = Vector3.zero;
+        par.transform.position = origin.transform.position;
+        par.transform.parent =  this.gameObject.transform;
+        // new_child.GetComponent<OffsetGrab>().enabled = false;
+        // new_child.GetComponent<BoxCollider>().enabled = false;
         // new_child.transform.Find("AttachToVase").GetComponent<BoxCollider>().enabled = false;
         // new_child.transform.Find("AttachToVase").gameObject.SetActive(false);
         origin.SetActive(false);
